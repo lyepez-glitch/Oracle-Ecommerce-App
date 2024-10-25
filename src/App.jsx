@@ -25,7 +25,7 @@ function App() {
         username,
         password,
       });
-      console.log(response.data); // Handle login success
+      console.log(response.data); /// Handle login success
       setLogin(true); // Mark as loggedin
     } catch (error) {
       console.error('Login failed:', error);
